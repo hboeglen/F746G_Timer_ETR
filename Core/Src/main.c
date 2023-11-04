@@ -110,7 +110,7 @@ int main(void)
 	ticks = TIM8->CNT;
 	// Print The Ticks Count Via UART1
 	printf("Ticks = %d\n\r", ticks);
-	HAL_Delay(100);
+	HAL_Delay(250);
   }
   /* USER CODE END 3 */
 }
